@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  min-height: 100vh; /* Ensure it covers the full height */
+  color: white; /* Make the text color white for better visibility */
+}
+
+.candidates {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.candidate {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #333; /* Dark background for candidate cards */
+}
+
+.candidate-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:#d9442a; /* Blue background for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e73718; /* Darker blue on hover */
+}
+
+.results-toggle {
+  margin-top: 20px;
+}
+
+.results-toggle button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #d9442a; /* Blue background for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.results-toggle button:hover {
+  background-color: #e73718; /* Darker blue on hover */
+}
+
+.results {
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  background-color: #222; /* Darker background for table cells */
+  color: white; /* White text for table cells */
+}
+
+th {
+  background-color: #444; /* Darker background for table headers */
+}
