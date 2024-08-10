@@ -1,1 +1,1 @@
-# voting-application
+This project is a web-based application built using React to facilitate the election of a Class Representative (CR) in a class. The application provides an easy-to-use interface for students to vote, ensuring a smooth and secure election process. The results are displayed instantly once voting concludes, providing transparency and efficiency.
